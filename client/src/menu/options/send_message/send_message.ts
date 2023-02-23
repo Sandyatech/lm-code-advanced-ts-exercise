@@ -3,7 +3,7 @@ import { states } from "../../../states/states";
 import { clear, print, printNewLine, prompt } from "../../../ui/console";
 
 export async function sendMessage() {
-	console.clear();
+	clear("yes");
 
 	const message:string = await prompt("What message shall we send? ");
 

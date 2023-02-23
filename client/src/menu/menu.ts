@@ -1,8 +1,8 @@
 import { states } from "../states/states";
-import { print, printNewLine, prompt } from "../ui/console";
+import { clear, print, printNewLine, prompt } from "../ui/console";
 
 export async function showMenu() {
-	console.clear();
+	clear("yes");
 	print("0. Send Server Message", false);
 	print("1. Show all posts", false);
 	print("2. Show all users", false);

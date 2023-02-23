@@ -1,4 +1,3 @@
-import { print, prompt } from "../ui/console";
 import { baseUrl } from "./base_url";
 
 export async function sendMessageToServer(message: string) {
